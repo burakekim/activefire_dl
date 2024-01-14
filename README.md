@@ -2,7 +2,7 @@
 This repository contains the code to perform supervised classification of active fire pixels from Landsat-8 images.  
 
 ```
-Input Image: B$\times$10$\times$128$\times$128
+Input Image: B $\times$ 10 $\times$ 128 $\times$ 128
 Annotation: B$\times$1$\times$128$\times$128
 Prediction: B$\times$1$\times$128$\times$128
 ```
