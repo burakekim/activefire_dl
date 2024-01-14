@@ -11,7 +11,7 @@ Please see `requirements.txt`
 - `model.py`: defines the model
 - `trainer.py`: defines the train/val/test loops
 
-Simply download the dataset, and accordingly revise the paths in `main.py`.
+Simply download the dataset and accordingly revise the paths in `main.py`.
 
 ### Dataset
 The dataset used in this study: [Active fire detection in Landsat-8 imagery: A large-scale dataset and a deep-learning study](https://www.sciencedirect.com/science/article/pii/S092427162100160X)
