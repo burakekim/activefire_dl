@@ -1,10 +1,11 @@
 ### Pixel-wise Active Fire Classification in Landsat-8 using Deep Learning 
 This repository contains the code to perform supervised classification of active fire pixels from Landsat-8 images.  
 
+```
 Input Image: B$$\times$$10$$\times$$128$$\times$$128
 Annotation: B$$\times$$1$$\times$$128$$\times$$128
 Prediction: B$$\times$$1$$\times$$128$$\times$$129
-
+```
 
 ### Requirements
 Please see `requirements.txt`
