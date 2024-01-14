@@ -15,3 +15,6 @@ Simply download the dataset, and accordingly revise the paths in `main.py`.
 
 ### Dataset
 The dataset used in this study: [Active fire detection in Landsat-8 imagery: A large-scale dataset and a deep-learning study](https://www.sciencedirect.com/science/article/pii/S092427162100160X)
+
+### Sample Results
+ ![Alt text](images/sample_preds.png "Title")
