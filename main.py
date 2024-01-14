@@ -4,8 +4,11 @@ import os
 import kornia.augmentation as K
 import pytorch_lightning as pl
 import torch
-from pytorch_lightning.callbacks import (EarlyStopping, LearningRateMonitor,
-                                         ModelCheckpoint)
+from pytorch_lightning.callbacks import (
+    EarlyStopping,
+    LearningRateMonitor,
+    ModelCheckpoint,
+)
 from pytorch_lightning.loggers import TensorBoardLogger
 from torch.utils.data import DataLoader
 from torchgeo.transforms import AugmentationSequential

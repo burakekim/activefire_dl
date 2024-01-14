@@ -22,13 +22,12 @@ class UNetTrainer(pl.LightningModule):
         """Initialize the UNetTrainer class.
 
         Args:
-            input_ch: number of input channels
-            enc_ch: encoder channels
-            use_act: activation function
-            lr: learning rate
-            tb_log_pred_gt: whether to plot predictions and annotations in tensorboard
-
-        """
+            input_ch (int, optional): number of input channels. Defaults to 10.
+            use_act (nn.module, optional): activation function. Defaults to None.
+            enc_ch (tuple, optional): encoder channels. Defaults to (32, 64, 128, 256, 512, 1024).
+            lr (float, optional): learning rate. Defaults to 1e-4.
+            tb_log_pred_gt (bool, optional): whether to plot predictions and annotations in tboard. Defaults to False.
+        """  # noqa: E501
         super().__init__()
         self.mse_err = torchmetrics.MeanSquaredError()
         self.mae_err = torchmetrics.MeanAbsoluteError()
